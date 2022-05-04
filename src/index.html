@@ -6,6 +6,7 @@
     <title>Визитка</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/my_icons.css">
 </head>
@@ -43,7 +44,7 @@
 </header>
   
    <main> 
-   <section class="h-100">
+   <section class="main h-100">
        <div class="container h-100"><div class="row align-items-center h-100">
            <div class="col-lg-6 mt-5 pt-5">
             <div class="title_container mt-5">
@@ -57,7 +58,7 @@
    </section>
     </main>
     
-    <section class="about h-100">
+    <section class="about h-100" id="aboutme">
         <div class="container">
           <div class="row justify-content-center">
            <div class="col-xxl-2 mt-5 text-center">
@@ -81,11 +82,11 @@
           </div>
         
           </div>
-          <div class="row justify-content-center mt-5"> <div class="col-xxl-3 mt-5 text-center"><button>Скачать резюме</button></div></div>
+          <div class="row justify-content-center mt-5 "> <div class="col-xxl-3 mt-5 text-center"><button>Скачать резюме</button></div></div>
          </div>
     </section>
     
-    <section class="skills h-50">
+    <section class="skills h-50" id="services">
         <div class="container">
         
         <div class="row justify-content-center">
@@ -107,7 +108,7 @@
         </div>
     </section>
     
-    <section class="examples">
+    <section class="examples" id="examples">
         <div class="container">
             <div class="row justify-content-center">
          <div class="col-xxl-2 mt-5 text-center">
@@ -139,36 +140,164 @@
         </div>
     </section>
     
-    <section class="price h-100">
-    <div class="container"><div class="row h-100 justify-content-center mt-5"><div class="col-xxl-10 col-lg-12">
+    <section class="price" id="price">
+    <div class="container"><div class="row h-100 justify-content-center mt-5"><div class="col-xxl-10 col-11">
                <div class="price-form">
                 <div class="row justify-content-center">
-                    <div class="col-xxl-4 text-center mt-4 mb-5"><h2>Расчёт стоимости</h2></div>
+                    <div class="col-xxl-4 text-center mt-5 mb-5"><h2>Расчёт стоимости</h2></div>
                 </div>
-                <div class="row"><div class="col-xxl-10 col-lg-12">
-                  <h3>ТИП САЙТА</h3>
-                <select class="selector mb-5" name="type_site" id="1">
+                <div class="row justify-content-center"><div class="col-xxl-10 col-11  mb-4"> 
+                   <h3>ТИП САЙТА</h3>
+                      <select class="selector" name="type_site" id="1">
                        <option disabled selected>Выберите пункт...</option>
                         <option value="Opt1">Визитка</option>
                         <option value="Opt1">Онлайн-магазин</option>
                  </select>
-                  <h3>ДИЗАЙН</h3>
-                <select class="selector mb-5" name="type_site" id="1">
+                                   
+                  <h3 class="mt-5">ДИЗАЙН</h3>
+                <select class="selector" name="type_site" id="1">
                 <option disabled selected>Выберите пункт...</option>
             <option value="Opt1">Модерн</option>
             <option value="Opt1">Олд-скул</option>
                 </select>
-                  <h3>АДАПТИВНОСТЬ</h3>
-                <select class="selector mb-5" name="type_site" id="1">
+                                                   
+                  <h3 class="mt-5">АДАПТИВНОСТЬ</h3>
+                <select class="selector" name="type_site" id="1">
                 <option disabled selected>Выберите пункт...</option>
             <option value="Opt1">Компьютер</option>
             <option value="Opt1">Смартфон</option>
                 </select>
+                
+                 <img class="d-block w-100 mt-4" src="img\line.png" alt="Упс">
+            
+                   </div></div>
+                  <div class="row justify-content-center">
+                  <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-8 mb-4"> 
+                   <h5>Сроки</h5>
+                   <h5>Стоимость</h5>
+                   </div>
+                   <div class="col-1 offset-xxl-7 offset-xl-6 offset-lg-5 offset-md-4 offset-2  text-end">
+                   <h4>0</h4>
+                   <h4>0</h4>
+                   </div>
+                   
+                   </div>
+                   <div class="row justify-content-center"><div class="col-2">
+             <form action="#" target="_blank">
+             <button>Оставить заявку</button>
+             </form> </div>
+                   </div>
+                   </div></div>
+                   </div></div>
+               
+    </section>
+    
+    <section class="statistics h-50">
+     <div class="container h-50">
+        <div class="row justify-content-center">
+         <div class="col-xxl-4 mt-5 text-center">
+            <div class="header mt-5">НЕМНОГО СТАТИСТИКИ</div></div>  
+         </div>
+         
+          <div class="row justify-content-center">
+              <div class="col-xxl-2 mt-3 text-center">
+              <img class="underline mt-2" src="img\underline.png" alt="Упс"></div>
+          </div>
+          
+          <ul class="row justify-content-around mt-5">
+              <li class="col-3 text-center mt-5"><img src="img/smile.png" alt="Упс"><h2>120</h2><p>СЧАСТЛИВЫХ КЛИЕНТОВ</p></li>
+              <li class="col-3 text-center mt-5"><img src="img/scobki.png" alt="Упс"><h2>4,600</h2><p>ЧАСОВ РАБОТЫ</p></li>
+              <li class="col-3 text-center mt-5"><img src="img/ok.png" alt="Упс"><h2>340</h2><p>ПРОЕКТОВ ЗАВЕРШЕНО</p></li>
+              <li class="col-3 text-center mt-5"><img src="img/kubok.png" alt="Упс"><h2>23</h2><p>НАГРАД ПОЛУЧЕНО</p></li>
+          </ul>
+        </div>
+    </section>
+    
+    <section class="comments" id="feedback">
+        <div class="container">
+          <div class="row justify-content-center">
+           <div class="col-xxl-2 mt-5 text-center">
+            <div class="header mt-5">ОТЗЫВЫ</div></div>  
+         </div>
+         
+          <div class="row justify-content-center ">
+              <div class="col-xxl-2 mt-3 text-center">
+              <img class="underline mt-2" src="img\underline.png" alt="Упс"></div>
+          </div>
+          
+          <div class="row justify-content-center  mt-5">
+             <div class="col-xxl-2 text-center">
+              <img class="about-foto mt-5 mb-2" src="img/fotka.png" alt="Упс">
+          </div>
+          </div>
+          <div class="row justify-content-center">
+             <div class="col-xxl-8 text-center  mt-5">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim labore, repellat, deleniti, fugiat dolore corporis ea nesciunt illum suscipit mollitia repudiandae quae consequatur non reiciendis dolores quos autem corrupti quisquam.</p>
+              <p><b>Михаил</b>, Ген.директор ПАО "Газпром".</p>
+          </div>
+        
+          </div>
+          <div class="row justify-content-center mt-2 "> <div class="col-xxl-2 text-center">
+              <img class="custom_tochki" src="img/orange.png" alt="">
+              <img class="custom_tochki" src="img/orange1.png" alt="">
+              <img class="custom_tochki" src="img/orange1.png" alt="">
+              
+          </div></div>
+         </div>
+    </section>
+    
+    <section class="contacts h-100" id="contacts">
+        <div class="container">
+             <div class="row justify-content-center">
+           <div class="col-xxl-2 mt-5 text-center">
+            <div class="contacts_header mt-5">МОИ КОНТАКТЫ</div></div>  
+         </div>
+         
+          <div class="row justify-content-center ">
+              <div class="col-xxl-2 mt-3 text-center">
+              <img class="underline mt-2" src="img\underline.png" alt="Упс"></div>
+          </div>
+          <div class="row justify-content-center mt-5">
+              <div class="col-xxl-6 text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur iure ipsam aspernatur asperiores.</p>
+                  </div></div>
+        
+        <div class="row justify-content-center mt-5">
+               <div class="col-xxl-2 col-xl-3 col-4 text-center">
+                <i class="custom-icon fa fa-map-marker" aria-hidden="true"></i>
+                    <p>Санкт-Петербург<br>Невский проспект 11</p></div>
+                <div class="col-xxl-2 col-xl-3 col-4  text-center">
+                    <i class="custom-icon fa fa-envelope-o" aria-hidden="true"></i>
+                    <p>info@company.com</p></div>
+                
+            <div class="col-xxl-2 col-xl-3 col-4  text-center">
+                <i class="custom-icon fa fa-phone" aria-hidden="true"></i>
+                    <p>+7 999 999-99-99</p></div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-xxl-3 text-center mb-5">
+                    <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
+                </div></div>
+            <form action="#" id="send_msg">
+              <div class="row justify-content-center">
+                <div class="col-xxl-4">
+                  <input type="text" class="form-control" id="inputName" form="send_msg" placeholder="Имя" required>
+                </div>
+                
+                <div class="col-xxl-4">
+                  <input type="email" class="form-control" id="inputEmail" form="send_msg" placeholder="Email" required>
+                </div>
+              
+              <div class="col-xxl-8 mt-3">
+                  <textarea type="text" rows="5" class="form-control textarea_custom" id="inputmsg" placeholder="Сообщение" form="send_msg"></textarea>
+              </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-2 text-center">
+                    <input class="button-send" type="submit" form="send_msg">
                 </div></div>
             </div>
-            </div></div></div>
-      
-
+            </form>
+        </div>
     </section>
     
 <script src="js/bootstrap.bundle.min.js"></script>
