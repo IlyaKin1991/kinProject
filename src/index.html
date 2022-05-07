@@ -7,43 +7,12 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/my_icons.css">
 </head>
 <body>
  
-<!--
-<nav>
-<div class="container"><div class="row">
-    <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Илья Кин</div></div>
-    <div class="col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu">
-       <ul>
-       <li><a href="#aboutme">ОБО МНЕ</a></li>
-       <li><a href="#services">УСЛУГИ</a></li>
-       <li><a href="#examples">КЕЙС</a></li>
-       <li><a href="#price">ПРАЙС</a></li>
-       <li><a href="#feedback">ОТЗЫВЫ</a></li>
-       <li><a href="#contacts">КОНТАКТЫ</a></li> 
-    </ul></div></div>
-    <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
-            <div class="dropdown"><a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-    Навигация
-  </a>
-
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="#aboutme" >Обо мне</a></li>
-                <li><a class="dropdown-item active" href="#services">Услуги</a></li>
-                <li><a class="dropdown-item" href="#examples">Кейс</a></li>
-                <li><a class="dropdown-item" href="#price">Прайс</a></li>
-                <li><a class="dropdown-item" href="#feedback">Отзывы</a></li>
-                <li><a class="dropdown-item" href="#contacts">Контакты</a></li>
-  </ul>
-</div></div> </div>
-            </div>
- 
-</nav>
-
--->
 <header>
  <nav class="navbar menu navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
@@ -51,8 +20,8 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav ">
         <li class="nav-item">
           <a class="nav-link" href="#aboutme">Обо мне</a>
         </li>
@@ -99,6 +68,7 @@
    </section>
     </main>
     
+
     <section class="about h-100 section" id="aboutme">
         <div class="container">
           <div class="row justify-content-center">
@@ -113,7 +83,7 @@
           
           <div class="row justify-content-center  mt-5">
              <div class="col-xxl-2 text-center">
-              <img class="about-foto mt-5 mb-2 animation-later" src="img/default.jpg" data-src="img\foto.jpg" alt="Упс">
+              <img class="about-foto mt-5 mb-2 animation-later image-link" src="img/default.jpg" data-src="img\foto.jpg" href="img\foto.jpg" alt="Упс">
           </div>
           </div>
           <div class="row justify-content-center">
@@ -140,7 +110,7 @@
               <img class="underline mt-2" src="img\underline.png" alt="Упс"></div>
           </div>
           
-          <ul class="row justify-content-around mt-5">
+          <ul class="row justify-content-around mt-5 animation-custom-ul">
               <li class="col-3 text-center mt-5"><img src="img\note.jpg" alt="Упс"><h2>Веб-дизайн</h2><p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempu</p></li>
               <li class="col-3 text-center mt-5"><img src="img\sign.jpg" alt="Упс"><h2>Разработка</h2><p>Lorem ipsum dolor sit amet placerat facilisis mi in tempus elei</p></li>
               <li class="col-3 text-center mt-5"><img src="img\racket.jpg" alt="Упс"><h2>CEO-оптимизация</h2><p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempu</p></li>
@@ -169,10 +139,10 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/workplace.jpg" class="d-block w-100" alt="...">
+              <img src="img/workplace.jpg" class="d-block w-100 image-link" href="img/workplace.jpg" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="img/case.jpg" class="d-block w-100" alt="...">
+              <img src="img/case.jpg" class="d-block w-100 image-link" href="img/case.jpg" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
@@ -206,27 +176,27 @@
                     <div class="col-xxl-4 text-center mt-5 mb-5"><h2>Расчёт стоимости</h2></div>
                 </div>
                 <div class="row justify-content-center"><div class="col-xxl-10 col-11  mb-4"> 
-                   <h3>ТИП САЙТА</h3>
+                     <h3>ТИП САЙТА</h3>
                       <select class="selector" name="type_site" id="typ_site">
                        <option disabled selected>Выберите пункт...</option>
-                        <option value="Opt1">Визитка</option>
-                        <option value="Opt2">Онлайн-магазин</option>
+                        <option value="1">Визитка</option>
+                        <option value="2" >Онлайн-магазин</option>
                  </select>
                                    
                   <h3 class="mt-5">ДИЗАЙН</h3>
                 <select class="selector" name="type_site" id="design_site">
                 <option disabled selected>Выберите пункт...</option>
-            <option value="Opt1">Модерн</option>
-            <option value="Opt2">Олд-скул</option>
+            <option value="1">Модерн</option>
+            <option value="2">Олд-скул</option>
                 </select>
                                                    
                   <h3 class="mt-5">АДАПТИВНОСТЬ</h3>
                 <select class="selector" name="type_site" id="cross_site">
                 <option disabled selected>Выберите пункт...</option>
-            <option value="Opt1">Компьютер</option>
-            <option value="Opt2">Смартфон</option>
+            <option value="1">Компьютер</option>
+            <option value="2">Смартфон</option>
                 </select>
-                
+           
                  <img class="d-block w-100 mt-4" src="img\line.png" alt="Упс">
             
                    </div></div>
@@ -235,16 +205,16 @@
                    <h5>Сроки</h5>
                    <h5>Стоимость</h5>
                    </div>
-                   <div class="col-1 offset-xxl-7 offset-xl-6 offset-lg-5 offset-md-4 offset-2  text-end">
-                   <h4>0</h4>
-                   <h4>0</h4>
+                   <div class="col-2 offset-xxl-6 offset-xl-5 offset-lg-4 offset-md-3 offset-1  text-end">
+                   <h4 id="days">0</h4>
+                   <h4 id="cost">0</h4>
                    </div>
                    
                    </div>
                    <div class="row justify-content-center"><div class="col-2">
-             <form action="#" target="_blank">
-             <button>Оставить заявку</button>
-             </form> </div>
+             
+             <button id="calc">Рассчитать</button>
+           </div>
                    </div>
                    </div></div>
                    </div></div>
@@ -363,6 +333,7 @@
 
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/my_script1.js"></script>    
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/myScript1.js"></script>    
 </body>
 </html>

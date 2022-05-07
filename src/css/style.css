@@ -132,9 +132,7 @@ main{
     transition: all 0.2s;
     transform: scale(1);
 }
-.custom_row{
-    border: 1px solid white;
-}
+
 .title_container button:hover{
     background: #344051;
     color: white;
@@ -374,5 +372,3 @@ input.button-send:hover{
 input.button-send:active{
     transform: scale(1.2);
 }
-
-
